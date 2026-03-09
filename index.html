@@ -5,6 +5,7 @@
     <title>Kelechukwu Uzor | Cybersecurity Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -92,6 +93,131 @@
         observer.observe(section);
       });
     </script>
+=======
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Dark Mode Toggle -->
+<button class="theme-toggle" onclick="toggleTheme()">Dark Mode</button>
+
+<!-- Social Icons -->
+<div class="social-icons">
+    <a href="https://www.linkedin.com/in/kelechukwu-uzor" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://tryhackme.com/p/Kene007" target="_blank"><i class="fas fa-terminal"></i></a>
+    <a href="https://github.com/Kene007" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://x.com/Uzor_Kelechukwu" target="_blank" class="x-icon">
+        <img src="assets/icons/x-logo.svg" alt="X Logo" />
+    </a>
+</div>
+
+<!-- Header -->
+<header>
+    <h1><i class="fas fa-user-shield"></i> Kelechukwu Uzor</h1>
+    <p>Cybersecurity | SOC Analyst | Pentesting | Blue Team</p>
+</header>
+
+<!-- Skills & Tools -->
+<section>
+    <h2><i class="fas fa-tools"></i> Skills & Tools</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Blue Team</h3>
+            <ul>
+                <li>SIEM Monitoring (Wazuh)</li>
+                <li>Log Analysis & Alert Triage</li>
+                <li>Incident Detection & Response</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Red Team</h3>
+            <ul>
+                <li>Nmap, Burp Suite, Metasploit</li>
+                <li>XSS, SQL Injection</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Systems</h3>
+            <ul>
+                <li>Linux & Windows</li>
+                <li>Active Directory Basics</li>
+                <li>Bash & Python (Basic)</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Practical Experience -->
+<section>
+    <h2><i class="fas fa-flask"></i> Practical Experience</h2>
+    <div class="card">
+        <h3>Home SOC Lab – Case Study</h3>
+        <p><strong>Goal:</strong> Build a functional SOC environment for threat detection.</p>
+        <ul>
+            <li>Deployed Wazuh SIEM</li>
+            <li>Collected Windows & Linux logs</li>
+            <li>Detected brute-force attacks</li>
+            <li>Analyzed alerts and false positives</li>
+        </ul>
+        <a class="button" href="https://github.com/Kene007" target="_blank">View Documentation</a>
+    </div>
+
+    <div class="card">
+        <h3>TryHackMe – Cyber Defense Path</h3>
+        <ul>
+            <li>Incident Response</li>
+            <li>Threat Detection</li>
+            <li>Blue Team Fundamentals</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CTF Writeups -->
+<section>
+    <h2><i class="fas fa-flag-checkered"></i> CTF Writeups</h2>
+    <div class="card">
+        <p>
+            Documented TryHackMe walkthroughs focusing on methodology,
+            enumeration, exploitation, and remediation.
+        </p>
+        <p><strong>Status:</strong> In progress 🚧</p>
+        <a class="button" href="https://tryhackme.com/p/Kene007" target="_blank">View Profile</a>
+    </div>
+</section>
+
+<!-- Certifications -->
+<section>
+    <h2><i class="fas fa-certificate"></i> Certifications</h2>
+    <div class="card">
+        <ul>
+            <li>Cisco – Introduction to Cybersecurity</li>
+            <li>Cisco – Networking Basics</li>
+            <li>Security+ (In Progress)</li>
+        </ul>
+        <a class="button" href="https://www.netacad.com/profile?tab=badges" target="_blank">Verify</a>
+    </div>
+</section>
+
+<!-- Resume -->
+<section>
+    <h2><i class="fas fa-file-pdf"></i> Resume</h2>
+    <div class="card">
+        <p>Download my resume:</p>
+        <a class="button" href="resume.pdf" target="_blank">Download Resume (PDF)</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Kelechukwu Uzor | Cybersecurity Portfolio</p>
+</footer>
+
+<script>
+function toggleTheme() {
+    document.body.classList.toggle("dark");
+}
+</script>
+>>>>>>> c3e3ca2 (Add initial portfolio files)
 
 </body>
 </html>
